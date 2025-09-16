@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMORPG Game Client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="statusOverlay">
+        <div class="status-item">
+            <span class="status-label">Connected:</span>
+            <span id="connectionStatus" class="status-value disconnected">Disconnected</span>
+        </div>
+        <div class="status-item">
+            <span class="status-label">Players:</span>
+            <span id="playerCount" class="status-value">0</span>
+        </div>
+        <div class="status-item">
+            <span class="status-label">Position:</span>
+            <span id="playerPosition" class="status-value">(0, 0)</span>
+        </div>
+        <div class="status-item">
+            <span class="status-hint">Press Enter for commands</span>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
