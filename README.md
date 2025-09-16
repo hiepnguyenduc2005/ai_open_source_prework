@@ -1,6 +1,7 @@
 # Mini Multiplayer Online Role Playing Game
 
 PLEASE CHECK RECORDING: [recording.mov](recording.mov)
+
 Welcome to the world's simplest multiplayer game, where all you can do is hang out, and walk around!
 
 In order to join the shared game server, build your own web client. Your web client is responsible for:
